@@ -8,4 +8,10 @@ public class PatientRepo {
     public void add(Patient patient){
         patientList.add(patient);
     }
+
+    List getPatientList(){
+        return patientList;
+    }
 }
+
+//neha
